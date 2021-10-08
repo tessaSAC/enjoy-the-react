@@ -1,5 +1,5 @@
 {
-  "name": "enjoy the react",
+  "name": "enjoy-the-react",
   "version": "0.0.1",
   "scripts": {
     "build": "mkdir -p out; esbuild src/index.tsx --bundle --sourcemap --outdir=out"

@@ -1,0 +1,17 @@
+{
+  "name": "enjoy the react",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "mkdir -p out; esbuild src/index.tsx --bundle --sourcemap --outdir=out"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.3",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5"
+  }
+}
